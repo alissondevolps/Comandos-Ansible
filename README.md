@@ -9,7 +9,7 @@
 - ansible -i hosts all -m apt -a "update_cache=yes name=nginx state=absent" ---> desinstala o nginx das máquinas
 - ansible -i host NOME_DA_MAQUINA -m setup ---> O ansible da um check em tudo que está rodando na máquina
 - ansible-playbook -i hosts playbook.yaml ---> Executa o arquivo de nome playbook.yaml
-
+- ansible-galaxy init install_nginx ---> cria uma estrutura de pastas para configurar as roles 
 
 
 

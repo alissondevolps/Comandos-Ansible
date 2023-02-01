@@ -16,3 +16,8 @@
 # Links Documentação
 - https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 - https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#pip-install
+- https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-fedora-or-centos
+- https://galaxy.ansible.com/community/docker
+
+
+ansible-galaxy collection install community.docker
